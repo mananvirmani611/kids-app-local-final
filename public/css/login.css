@@ -1,0 +1,181 @@
+ul {
+    list-style: none;
+    display: flex
+}
+.register-button{
+color: black;
+}
+.register-button:hover{
+  color: gray;
+}
+.right-div{
+  text-align: center;
+  padding: 5%;
+}
+.line-break{
+
+  width: 60%;
+  margin:4% auto;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif!important;
+}
+
+.input-item{
+  display: block;
+  margin:2% auto;
+  width: 70%;
+  border-radius: 5px;
+  padding: 1%;
+}
+.login-heading{
+  margin-bottom: 2%;
+}
+.inline-headings{
+  display: inline;
+}
+body{
+background-color: black;
+}
+.house-image{
+  width: 100%;
+}
+.singup-button{
+  display: inline;
+  text-decoration: none;
+}
+.signup-image{
+  width: 30%;
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+.login-button{
+  width: 70%;
+  margin-top: 1%;
+  background-color: #B8CFD6!important;
+  color: black!important;
+  border: 0!important;
+}
+.login-button:hover{
+  background-color: #blue!important;
+  color: gray!important;
+  border: 0!important;
+}
+.fa {
+  padding: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color:black;
+}
+
+.fa-facebook {
+  margin-left: 10px;
+  font-size: 30px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #ebecf0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 100;
+  border: 4px solid black;
+  /* top: 50%; */
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
+
+.centered{
+  text-align: center;
+}
+.row.centered{
+  padding: 7% 0;
+}

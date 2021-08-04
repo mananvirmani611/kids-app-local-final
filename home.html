@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="height:100%;">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/home.css">
+
+  </head>
+  <body style="font-family: 'Rubik', sans-serif; height:100%;">
+      <div class="row" style="height:100%;">
+        <div class="col-lg-6" style="height:100%!important; text-align:center; background-color:#ffc404; padding:3% 6%;">
+          <img src="/hi-gif.gif" alt="" style="width:30%; margin-bottom:30px;">
+          <div class="" style="padding:10%; background-color:white;">
+              <h1>Welcome!!</h1>
+              <h4>This is the place where you can create heirarchies, even save and edit them.</h4>
+          </div>
+          <div class="" style="text-align:center; margin-top:10px;">
+            <form class="" action="/logout" method="get">
+                <button type="submit" name="button" style="border:0px; border-radius:4px; padding:6px 10px; font-size:18px!important;">Logout</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6" style="height:100%;">
+            <div class="row" style="width:100%; height:50%;">
+                <div class="col-lg-6 " style="padding:6%; text-align:center; background-color:#ff7c0c;">
+                <form class="" action="/login" method="get" style="height:100%; width:100%;">
+                      <button type="submit" name="button" class="btn btn-outline btn-light" style="width:70%; height:70%;">Login</button>
+                </form>
+                </div>
+                <div class="col-lg-6" style="padding:6%; text-align:center; background-color:#ff4c3c;">
+                  <form class="" action="/register" method="get" style="height:100%; width:100%;">
+                  <button type="submit" class="btn btn-outline btn-light" name="button" style="width:70%; height:70%;">Signup</button>
+                  </form>
+                </div>
+            </div>
+            <div class="row" style="width:100%; height:50%;">
+                <div class="col-lg-6" style="padding:6%; text-align:center; background-color:#08cc6c;">
+                  <form class="" action="/new-heirarchy" method="get" style="height:100%; width:100%;">
+                  <button type="submit" name="button" class="btn btn-outline btn-light" style="width:70%; height:70%;">Create New Heirarchy</button>
+                </form>
+                </div>
+                <div class="col-lg-6" style="padding:6%; text-align:center; background-color:#203c54;">
+                  <form class="" action="/show-heirarchies" method="get" style="height:100%; width:100%;">
+                  <button type="submit" name="button" class="btn btn-outline btn-light" style="width:70%; height:70%;">Show All Heirarchies</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>

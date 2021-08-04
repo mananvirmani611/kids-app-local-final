@@ -1,0 +1,105 @@
+#left-div {
+  padding-left: 5%;
+  padding-top: 3%;
+  /* text-align: left; */
+  text-align: center;
+  margin:auto auto;
+}
+
+.register-form {
+  text-align: left;
+  padding-top: 3%;
+}
+
+.names {
+  width: 35%;
+  display: inline-block;
+  padding: 1.5%;
+  margin: 2%;
+  border-radius: 4px;
+  border-width: 1px;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif!important;
+}
+
+
+.email {
+  display: inline-block;
+  width: 80%;
+  padding: 1.5%;
+  margin: 2%;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.phone {
+  display: inline-block;
+  width: 80%;
+  margin: 2%;
+  padding: 1.5%;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.password {
+  margin: 2%;
+  border-radius: 4px;
+  width: 80%;
+  display: inline-block;
+  padding: 1.5%;
+  border-width: 1px;
+}
+
+.icon {
+  width: 20px;
+  border-width: 1px;
+  margin-right: 1%;
+  color: lightblue;
+  /* border-style: ; */
+  font-size: 30px;
+  height: 40px;
+}
+
+.fa {
+  font-size: 400px;
+}
+
+.register-button {
+  margin: 2%;
+  margin-top: 30px;
+  margin-left: 7%;
+  width: 80%;
+  padding: 1.5%;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: lightblue;
+}
+
+.switch-login {
+  margin: auto;
+  font-size: 24px;
+}
+
+.register-heading {
+  margin-right: 10%;
+}
+
+
+.register-image {
+  width: 100%;
+}
+
+.hrule {
+  width: 90%;
+  border-width: 5px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
